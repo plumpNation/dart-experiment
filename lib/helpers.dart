@@ -3,3 +3,7 @@ int calculate() {
 }
 
 double milesToKM(double miles) => miles / 0.62;
+
+DateTime getNow() {
+  return DateTime.now();
+}
